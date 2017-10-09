@@ -12,7 +12,7 @@ This box comes with everything you need to start using smart contracts from a re
 
 2. Download box.
     ```javascript
-    truffle unbox truffle unbox Quintor/angular-truffle-box
+    truffle unbox Quintor/angular-truffle-box
     ```
 
 3. Compile and migrate the contracts.
@@ -21,18 +21,19 @@ This box comes with everything you need to start using smart contracts from a re
     truffle migrate
     ```
 
-4. Run the webpack server for front-end hot reloading. For now, smart contract changes must be manually recompiled and migrated.
-    ```javascript
-    npm run start
-    ```
-
-5. JTruffle's smart contract tesing framework should still work.
+5. Truffle's smart contract tesing framework should still work.
     ```javascript
     // Runs Truffle's test suite for smart contract tests.
     truffle test
+
+    // Run Angular component tests
+    ng test
+
+    // Run Protractor end-to-end tests
+    ng e2e
     ```
 
-6. To build the application for production, use the build command. A production build will be in the build_webpack folder.
+6. Serve the app and look on in awe.
     ```javascript
     ng serve
     ```
