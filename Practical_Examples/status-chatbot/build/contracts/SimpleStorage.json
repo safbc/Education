@@ -1,0 +1,132 @@
+{
+  "contract_name": "SimpleStorage",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052346000575b6093806100176000396000f300606060405263ffffffff60e060020a60003504166360fe47b18114602c5780636d4ce63c14603b575b6000565b3460005760396004356057565b005b3460005760456060565b60408051918252519081900360200190f35b60008190555b50565b6000545b905600a165627a7a723058207ecf6d880eb49c91f00fa1bdc2bd6f08524a4a18353908df2e58eed4776978ea0029",
+  "networks": {
+    "1496256647473": {
+      "events": {},
+      "links": {},
+      "address": "0x77faec1ead054e082b82b562e7c31daa94004368",
+      "updated_at": 1496257066328
+    },
+    "1496258716512": {
+      "events": {},
+      "links": {},
+      "address": "0xc0632e16eac0668c5f39fbe57dd3612ddcec4364",
+      "updated_at": 1496258725372
+    },
+    "1496316984703": {
+      "events": {},
+      "links": {},
+      "address": "0x8dcc5d0298506e45e0e94a1b7c761e3748db081d",
+      "updated_at": 1496317716775
+    },
+    "1496325692846": {
+      "events": {},
+      "links": {},
+      "address": "0x961776e93fa6cfcb704117ca5e8ee0da059ebb98",
+      "updated_at": 1496325754447
+    },
+    "1496329649438": {
+      "events": {},
+      "links": {},
+      "address": "0xb328735dcd79c203b26a47e4a6aed97f96b52d6c",
+      "updated_at": 1496329689945
+    },
+    "1496413248754": {
+      "events": {},
+      "links": {},
+      "address": "0xbdd8971953942e1dcdfda6876bf98928de7a86b0",
+      "updated_at": 1496413467511
+    },
+    "1496474517833": {
+      "events": {},
+      "links": {},
+      "address": "0x80813b4ca45e4889fa6af1a7c73b2edf9b6d2310",
+      "updated_at": 1496474572243
+    },
+    "1496844960707": {
+      "events": {},
+      "links": {},
+      "address": "0x6fab4df6e566e7c2d16db9ce9508e3d80d376210",
+      "updated_at": 1496845008105
+    },
+    "1496910461393": {
+      "events": {},
+      "links": {},
+      "address": "0x082a6a091bb1a89805dd2d51206ecd12cbd98c11",
+      "updated_at": 1496910526195
+    },
+    "1497012019314": {
+      "events": {},
+      "links": {},
+      "address": "0xc7badcbc01c2f8ef1e12c4c289bfea168fa99049",
+      "updated_at": 1497012024954
+    },
+    "1505987238874": {
+      "events": {},
+      "links": {},
+      "address": "0x34a27a30dfd587c1baf793b8b7f2493b7bd645ca",
+      "updated_at": 1505987450390
+    },
+    "1505987827942": {
+      "events": {},
+      "links": {},
+      "address": "0x314d19c02d0f91c07f8a14e783b0e069a7c78eee",
+      "updated_at": 1505987861568
+    },
+    "1505994365632": {
+      "events": {},
+      "links": {},
+      "address": "0xe6b0cb36a85a427369120c8962ce8396fce97ba2",
+      "updated_at": 1505994395235
+    },
+    "1506349130445": {
+      "events": {},
+      "links": {},
+      "address": "0xaa521647877b6b93b0550c53172a9c198922f192",
+      "updated_at": 1506349207040
+    },
+    "1506936413024": {
+      "events": {},
+      "links": {},
+      "address": "0xec0ed86389ca29ec2eeea1136fc06af06a87b927",
+      "updated_at": 1506936722559
+    },
+    "1506941813277": {
+      "events": {},
+      "links": {},
+      "address": "0x8e17bde6954774581e0c7bec5d87106c55b65a4d",
+      "updated_at": 1506942108007
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1506942108007
+}
